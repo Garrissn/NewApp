@@ -26,9 +26,11 @@ class ViewController: UIViewController {
     
     @IBAction func buttonDidTap(_ sender: Any) {
         
+        
         count = count + 1
         textCount.text = "Значение счетчика: \(count)"
         print (count)
+        print ("привет")
         
     }
     
